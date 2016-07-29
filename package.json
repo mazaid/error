@@ -1,0 +1,41 @@
+{
+  "name": "mazaid-error",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "docs": "rm -rf ./docs && ./node_modules/.bin/jsdoc ./ -c ./.jsdoc.json --verbose && open ./docs/index.html",
+    "test": "./node_modules/.bin/mocha ./test"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazaid/error.git"
+  },
+  "keywords": [
+    "mazaid",
+    "error"
+  ],
+  "author": "alekzonder <alekzonder@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mazaid/error/issues"
+  },
+  "homepage": "https://github.com/mazaid/error#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-json-schema": "git+https://github.com/chaijs/chai-json-schema.git",
+    "ink-docstrap": "^1.2.1",
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1",
+    "mocha": "^2.4.5"
+  }
+}
