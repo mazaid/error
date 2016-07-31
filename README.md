@@ -1,5 +1,9 @@
 # mazaid-error
 
+[![Code Climate](https://codeclimate.com/github/mazaid/error/badges/gpa.svg)](https://codeclimate.com/github/mazaid/error)
+[![Build Status](https://travis-ci.org/mazaid/error.svg?branch=master)](https://travis-ci.org/mazaid/error)
+
+
 checkable errors
 
 # install

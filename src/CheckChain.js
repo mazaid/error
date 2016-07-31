@@ -138,7 +138,7 @@ class CheckChain {
                     break;
                 }
 
-            } else if (typeof check == 'function') {
+            } else if (typeof check === 'function') {
 
                 this._debug(`check function entity = ${this._entity}, step = ${i}`);
 
