@@ -1,6 +1,7 @@
 # mazaid-error
 
 [![Code Climate](https://codeclimate.com/github/mazaid/error/badges/gpa.svg)](https://codeclimate.com/github/mazaid/error)
+[![Test Coverage](https://codeclimate.com/github/mazaid/error/badges/coverage.svg)](https://codeclimate.com/github/mazaid/error/coverage)
 [![Build Status](https://travis-ci.org/mazaid/error.svg?branch=master)](https://travis-ci.org/mazaid/error)
 
 
