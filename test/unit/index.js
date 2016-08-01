@@ -1,11 +1,5 @@
-var error = require(__dirname + '/../../src/errorFunction');
-
-// try {
-//     throw error('test', 'code');
-// } catch (e) {
-//     console.log(e.stack);
-// }
-//
+var error = require(__dirname + '/../../index');
+var create = require(__dirname + '/../../create');
 
 var assert = require('chai').assert;
 
@@ -51,6 +45,20 @@ describe('error base methods', function () {
         assert.equal(e.checkable, true);
     });
 
+});
+
+describe('create', function () {
+    it('should pass ErrorCodes to Error object', function () {
+
+        var ErrorCodes = {TEST_CODE: 'testCode'};
+
+        var error1 = create(ErrorCodes);
+
+        var e = error1('msg', ErrorCodes.TEST_CODE);
+
+        assert.deepEqual(e.ErrorCodes, ErrorCodes);
+        assert.equal(e.code, ErrorCodes.TEST_CODE);
+    });
 });
 
 describe('checkChain', function () {

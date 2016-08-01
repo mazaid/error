@@ -20,6 +20,8 @@ class MazaiError extends Error {
     constructor(message, code) {
         super(message);
 
+        this.ErrorCodes = {};
+
         this.code = code;
         this.entity = null;
         this.list = null;
