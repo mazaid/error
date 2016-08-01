@@ -1,10 +1,12 @@
 {
   "name": "mazaid-error",
   "version": "0.2.0",
-  "description": "",
+  "description": "checkable errors",
   "main": "index.js",
   "files": [
-    "src"
+    "src",
+    "index.js",
+    "create.js"
   ],
   "scripts": {
     "docs": "rm -rf ./docs && ./node_modules/.bin/jsdoc ./ -c ./.jsdoc.json --verbose && open ./docs/index.html",
