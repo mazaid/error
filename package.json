@@ -6,7 +6,8 @@
   "files": [
     "src",
     "index.js",
-    "create.js"
+    "create.js",
+    "parse.js"
   ],
   "scripts": {
     "docs": "rm -rf ./docs && ./node_modules/.bin/jsdoc ./ -c ./.jsdoc.json --verbose && open ./docs/index.html",
