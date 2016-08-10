@@ -4,6 +4,8 @@
 [![Test Coverage](https://codeclimate.com/github/mazaid/error/badges/coverage.svg)](https://codeclimate.com/github/mazaid/error/coverage)
 [![Build Status](https://travis-ci.org/mazaid/error.svg?branch=master)](https://travis-ci.org/mazaid/error)
 
+[![NPM](https://nodei.co/npm/mazaid-error.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/mazaid-error/)
+
 
 checkable errors
 
@@ -28,7 +30,7 @@ npm i --save mazaid-error
 			message: 'field required',
 			path: 'task.title'
 		}
-		
+
 	]
 }
 ```
